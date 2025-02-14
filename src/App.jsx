@@ -97,7 +97,7 @@ export default function QuizApp() {
         </CardContent>
       </Card>
       
-      <Button onClick={handleSubmit} disabled={submitted} className="mt-4 w-full">
+      <Button onClick={handleSubmit} disabled={submitted} className="mt-4 w-full cursor-pointer">
         Submit
       </Button>
       </div>

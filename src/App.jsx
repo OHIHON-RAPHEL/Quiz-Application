@@ -4,7 +4,6 @@ import { Card, CardContent } from "./components/Card";
 
 import { DndContext, useDraggable, useDroppable } from "@dnd-kit/core";
 
-
 const questions = [
   {
     id: 1,
@@ -119,6 +118,7 @@ function DraggableItem({ id }) {
     </div>
   );
 }
+
 
 function DroppableBox({ id, answer, submitted }) {
   const { setNodeRef } = useDroppable({ id });
